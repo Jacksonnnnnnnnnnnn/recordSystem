@@ -23,6 +23,8 @@ Sensor記錄交班系統
 
 ![image](https://user-images.githubusercontent.com/38338405/132234508-2d4e6f7b-fa22-4b42-b151-4922c2c3a462.png)
 
+![image](https://user-images.githubusercontent.com/38338405/132235728-917823ee-cf8c-4502-b5b3-f0e02e0e41b8.png)
+
 
 ## 開發工具
 前端 : NUXT.js
@@ -31,7 +33,13 @@ Sensor記錄交班系統
 
 資料庫 : MySQL
 
-> 此記錄系統搭配手機app 使用：
+### 此記錄系統搭配 sensor app 使用：
+
+<img src="https://user-images.githubusercontent.com/38338405/132235857-6854a21e-7d1f-4581-b12b-9d78fbf28c62.png" width="300" height="400">
+
+系統架構圖：
+
+每一個病床皆有 sensors 記錄病人的腦波情況，因 sensor 無法直接連線到研究記錄系統，因此透過每一床的手機裡的 sensor app，接受 sensor 的資訊，再傳到 Server，最後交班系統會抓取 Server 的資訊，並顯示在頁面上。
 
 ![image](https://user-images.githubusercontent.com/38338405/132233942-b4112a0b-dd63-4096-a258-359268dbd669.png)
 
